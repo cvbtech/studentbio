@@ -1,23 +1,103 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
+	<style>
+		h1 {
+			font-size: 60px;
+			text-align:center;
+			background-color:black;
+			color:white;
+		}
+		h2 {
+			text-align:left;
+		}
+		a {
+			text-decoration: none;
+		}
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 11pt;
+			background-color:#D3D3D3;
+			font-size:18pt;
+		}
+		.copyright {
+			text-align:center;
+			font-size:small;
+			margin-top:25px;
+		}
+		table.paper {
+			border-width: 1px;
+			border-spacing: 20px;
+			border-style: outset;
+			border-color: black;
+			border-collapse: separate;
+			background-color: white;
+			margin-left:auto; 
+			margin-right:auto;
+		}
+		li {
+			margin-top: 15px;
+			margin-bottom: 5px;
+		}
+		.bigBlue {
+			font-size: 100px;
+			color:blue;
+		}
+		img  {
+			float: left;
+			margin:15px;
+			border-style:outset;
+			border-width:2px;
+			border-color:red;
+		}
+		.leftCol {
+			float: left;
+			margin:15px;
+			width:500px;
+		}
+		.rightCol {
+			float: right;
+			margin:15px;
+			width:500px;
+		}
+	</style>
 </head>
 <body>
-<h1>Student Bio</h1>
 
-<h2>Tom McCrary</h2>
+<table class="paper">
+	<tr>
+		<td>
+			<h1>Student Bio</h1>
 
-<img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAV4AAAAJDMzYWQ0MTA2LWUzODYtNDYwYi05NzJjLTQ5MWFiYTMxZmQxMA.jpg" width="200" height="200">
+			<div class="leftCol">
+			
+				<h2>Tom McCrary</h2>
 
-<p>My name is Tom McCrary and I'm the Director of IT and Web Development for a Book Publishing Company.</p>
-<p>I primarily develop CRM and E-Commerce applications in PHP.</p>
+				<img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAV4AAAAJDMzYWQ0MTA2LWUzODYtNDYwYi05NzJjLTQ5MWFiYTMxZmQxMA.jpg" width="200" height="200" alt="Tom McCrary">
 
-<h2>Contact Info</h2>
+				<p>My name is Tom McCrary and I'm the Director of IT and Web Development for a Book Publishing Company.</p>
+				<p>I primarily develop CRM and E-Commerce applications in PHP.</p>
+			
+			</div>
 
-<ul>
-	<li><b>Email:</b> <a href="mailto:somebody@gmail.com">somebody@gmail.com</a></li>
-	<li><b>Github:</b> <a href="https://github.com/cvbtech/">https://github.com/cvbtech/</a></li>
-	<li><b>Portfolio:</b> <a href="#">Coming soon</a></li>
-</ul>
+			<div class="rightCol">
+
+				<h2>Contact Info</h2>
+
+				<ul>
+					<li><b>Email:</b> <a href="mailto:somebody@gmail.com">somebody@gmail.com</a></li>
+					<li><b>Github:</b> <a href="https://github.com/cvbtech/">https://github.com/cvbtech/</a></li>
+					<li><b>Portfolio:</b> <a href="#">Coming soon</a></li>
+				</ul>
+
+			</div>
+		</td>
+	</tr>
+</table>
+
+<div class="copyright">
+	&copy; 2016 Tom McCrary
+</div>
 </body>
 </html>
